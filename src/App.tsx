@@ -3,7 +3,7 @@ import './App.css'
 import { ThemeProvider } from 'styled-components';
 //import { theme } from './styles/theme';
 //import { GlobalStyle } from './styles/global';
-import {  Blog } from './components';
+import {  Blog, Card } from './components';
 
 
 function App() {
@@ -11,6 +11,9 @@ function App() {
   return (
     <>
         <Blog/>
+        <Card name="Aloha" description="Aloha" link="https://www.google.com.br"
+
+          />
     </>
   )
 }
