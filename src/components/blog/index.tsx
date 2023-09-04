@@ -1,6 +1,6 @@
 //import axios from "axios";
 //import { useState, useEffect } from "react";
-//import {Card} from "../../components"
+import {Card} from "../../components"
 import {
   Container,
   Carousel,
@@ -8,13 +8,13 @@ import {
   InnerContainer
 } from './styles'
 /*import { NextArrow } from "../../assets";
-import { PrevArrow } from "../../assets";
+import { PrevArrow } from "../../assets";*/
 
 type CardAPI = {
   name: string,
   description: string,
   link: string,
-}*/
+}
 
 
 export function Blog(){
@@ -63,6 +63,12 @@ export function Blog(){
         </Title>
         
         <Carousel {...settings}>  
+        <Card name="Aloha" description="Aloha" link="https://www.google.com.br" />
+        <Card name="Aloha" description="Aloha" link="https://www.google.com.br" />
+        <Card name="Aloha" description="Aloha" link="https://www.google.com.br" />
+        <Card name="Aloha" description="Aloha" link="https://www.google.com.br" />
+        <Card name="Aloha" description="Aloha" link="https://www.google.com.br" />
+        <Card name="Aloha" description="Aloha" link="https://www.google.com.br" />
 
 
         </Carousel>
