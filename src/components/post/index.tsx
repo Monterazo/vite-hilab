@@ -5,9 +5,9 @@ import {
   Product
 } from './styles'
 
-export function  Card({ name, description, link }: { name: string, description: string, link: string }) {
+export function  Post({ name, description, link }: { name: string, description: string, link: string }) {
   return(
-    <Container id="card">
+    <Container id="post">
       <Product src={link} alt="Imagem do produto" />
       <Title> {name} Aloha </Title>
       <Description> {description} Aloha</Description>

@@ -1,9 +1,9 @@
 //Model: import { Component } from './component';
 import { Blog } from './blog';
-import {Card} from './card';
+import {Post} from './post';
 
 export {
     //Component
     Blog,
-    Card,
+    Post,
 };
