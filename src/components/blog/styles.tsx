@@ -25,7 +25,7 @@ export const Carousel = styled(Slider)`
   margin-left: auto;
   margin-right: auto;
   margin-top: 6px;
-  background-color: white;
+  background-color: transparent;
 
 
 
