@@ -5,7 +5,6 @@ import {
   Container,
   Carousel,
   Title,
-  InnerContainer
 } from './styles'
 /*import { NextArrow } from "../../assets";
 import { PrevArrow } from "../../assets";*/
@@ -57,22 +56,21 @@ export function Blog(){
   
   return(
     <Container id="catalog">
-      <InnerContainer>
-        <Title>
-          Catálogo
-        </Title>
+        <h1>Nossas publicações</h1>
         
-        <Carousel {...settings}>  
-        <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
-        <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
-        <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
-        <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
-        <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
-        <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
+
+        
+      <Carousel {...settings}>  
+      
+      <Post/>
+      <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
+      <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
+      <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
+      <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
+      <Post name="Aloha" description="Aloha" link="https://www.google.com.br" />
 
 
-        </Carousel>
-      </InnerContainer>
+      </Carousel>
     </Container>
   )
 }

@@ -6,19 +6,12 @@ import '../../../node_modules/slick-carousel/slick/slick-theme.css'
 
 
 export const Container = styled.section`
-  background-position: center;
-  background-size:100% 100%;
-  background-repeat: repeat-x;
-  background-position: center;
-`
-//background: url(${CatalogBackground});
-
-export const InnerContainer = styled.div`
   width: 1126px;
   margin-left: auto;
   margin-right: auto;
-  
+  height: 30vw;
 `
+
 
 export const Carousel = styled(Slider)`
   width: 935px;

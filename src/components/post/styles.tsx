@@ -21,6 +21,8 @@ export const Container = styled.div`
 export const Product = styled.img`
   max-height: 180px;
   margin-bottom: 16px;
+  overflow: hidden;
+  height: 8vw;
 `
 
 export const Title = styled.h3`
@@ -43,5 +45,7 @@ export const Description = styled.p `
   line-height: 14.3px;
   text-align: center;
   color: #232323;
+  overflow: hidden;
+  height: 8vw;
 
 `

@@ -1,23 +1,23 @@
 import {
   Button,
-  Container,
+  Wrapper,
   Menu,
   MenuItem,
-  Logo
+  Logo,
+  Container
 } from './styles'
 
 export function  Navbar() {
   return(
-    <Container id="navbar">
-      <Logo>HILAB</Logo>
-      <Menu>
-        <MenuItem><Button>Home</Button></MenuItem>
-        <MenuItem><Button>Blog</Button></MenuItem>
-        <MenuItem><Button>Contact</Button></MenuItem>
-          
-      </Menu>
-      
-
-    </Container>
+    <Wrapper id="navbar">
+      <Container>
+        <Logo>HILAB</Logo>
+        <Menu>
+          <MenuItem><Button href='#about'>Home</Button></MenuItem>
+          <MenuItem><Button>Blog</Button></MenuItem>
+          <MenuItem><Button>Contact</Button></MenuItem>
+        </Menu>
+      </Container>
+    </Wrapper>
   )
 }
